@@ -1,0 +1,65 @@
+1. Cambiar directorio
+
+	$ cd OneDrive/Documentos/Git_test
+
+2. Iniciar repositorio local
+
+	$ git init
+
+3. Configurar usuario
+
+	$ git config user.name "dagrado"
+
+4. Configurar correo
+
+	$ git config user.email "dagrado@gmail.com"
+
+5. Conectar con repositorio remoto "Github"
+
+	$ git remote add origin "https://github.com/dagrado/pruebagit.git"
+	origin es el nombre del repositorio remoto
+
+6. Revisar status
+
+	$ git status
+
+7. Añadir archivo
+
+	$ git add Hola.txt
+	$ git status
+	
+8. Guardar cambios en el repositorio con commit
+
+	$ git commit -m "Estoy segura de este commit 1"
+	Importante poner mensaje para saber cuál commit es.
+	
+	$git status
+
+9. Cargar repositorio local al remoto con push.
+
+	$ git push -u origin master
+	master es el nombre de la rama inicial "master"
+
+10. Usar clone para halar todos los archivos de un repositorio remoto. Copiar todo.
+
+	dagra@LAPTOP-6180BH70 MINGW64 ~/OneDrive/Documentos/Clon (master) -->Carpeta en donde quiero clonar
+	$ git clone https://github.com/dagrado/pruebagit
+
+11. Para halar únicamente los cambios de versión hechos se usa Pull.
+
+	dagra@LAPTOP-6180BH70 MINGW64 ~/OneDrive/Documentos/Clon (master)
+	$ cd pruebagit
+
+	dagra@LAPTOP-6180BH70 MINGW64 ~/OneDrive/Documentos/Clon/pruebagit (master)
+	$ git pull origin master
+
+
+12. 
+
+
+
+
+
+
+
+
